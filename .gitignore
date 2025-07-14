@@ -1,0 +1,25 @@
+# Java / Spring Boot
+/backend/target/
+/backend/.idea/
+/backend/.classpath
+/backend/.project
+/backend/.settings/
+*.log
+
+# Node / React
+/frontend/node_modules/
+/frontend/build/
+/frontend/.env
+
+# PostgreSQL persistencia
+/ddbb/
+
+# Archivos del sistema o editores
+*.DS_Store
+*.iml
+*.swp
+*.bak
+*.tmp
+
+# Notas o archivos personales
+/notas/
