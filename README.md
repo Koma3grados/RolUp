@@ -1,20 +1,23 @@
 # RolUp
 
-RolUp es un proyecto personal que nace de una idea que tuve con mis amigos. Nosotros somos un grupo de cuatro que a veces se reúne para jugar D&D y siempre hemos tenido algunos problemas a la hora de gestionar nuestras partidas: ¿Querías saber cuál era tu modificador de Fuerza? Tenías que irte a la página de estadísticas de un excel. ¿Cuáles eran tus conjuros? Tenías que irte a ese mismo excel a la sección de conjuros y seguir un enlace para consultarlo. ¿Cuál era la habilidad de clase que ganabas a nivel 6? Tocaba irse a un pdf...
+RolUp es un proyecto personal que nace de una idea que tuve con mis amigos. Nosotros somos un grupo de cuatro que a veces se reúne para jugar D&D y siempre hemos tenido algunos problemas a la hora de gestionar nuestras partidas: ¿querías saber cuál era tu modificador de Fuerza? Tenías que irte a la página de estadísticas de un excel; ¿cuáles eran tus conjuros? Tenías que irte a ese mismo excel a la sección de conjuros y seguir un enlace para consultarlo, ¿cuál era la habilidad de clase que ganabas a nivel 6? Tocaba irse a un pdf...
 
 Con toda la información distribuida en decenas de archivos mientras preparaba algunas cosas para una campaña pensé "soy estudiante de ingeniería informática, he dado una asignatura que enseña a hacer aplicaciones web, ¿por qué no creo una aplicación para poder jugar más cómodamente y que se adapte a nuestras necesidades?".
 
-Por supuesto que investigué si ya existían propuestas interesantes para resolver nuestros problemas, pero ninguna terminaba de encajar con nuestro estilo de juego altamente flexible, por lo que luego de comentarlo con mis amigos a todos les gustó la propuesta y dieron sus ideas (ya que ellos son los jugadores y yo el Dungeon Master, su feedback es muy importante, ellos serán los usuarios finales).
+Por supuesto que investigué si ya existían propuestas interesantes para resolver nuestros problemas, pero ninguna terminaba de encajar con nuestro estilo de juego altamente flexible, por lo que luego de comentar la idea de crear una aplicación con mis amigos a todos les gustó la propuesta y dieron sus ideas (ellos son los jugadores y yo el Dungeon Master, por lo que su feedback es muy importante ya que ellos serán los "usuarios finales").
 
-Luego de consultar la viabilidad de realizar un proyecto así con mi profesor (ya que este proyecto tiene más calibre que lo aprendido en la asignatura) entendí que realizarlo era completamente posible con algo más de investigación, por lo que me puse manos a la obra en verano tabajando un poco cada día hasta terminar la versión 1.0.0 de RolUp.
+Luego de consultar la viabilidad de realizar un proyecto así con mi profesor (ya que este proyecto es mucho más complejo que lo aprendido en la asignatura) vi que realizarlo era completamente posible, con algo más de investigación por supuesto, por lo que me puse manos a la obra en verano tabajando poco a poco hasta terminar la versión 1.0.0 de RolUp.
 
-RolUp es una aplicación web diseñada como herramienta de apoyo para jugar rol de mesa de forma presencial. Permite gestionar personajes, inventario, habilidades, conjuros y, próximamente, encuentros de combate con turnos, efectos y reparto de recompensas. La versión 1.0.0 (la actual) se centra en la API, mientras que la 2.0.0 integrará websocket para manejar encuentros (comnbates).
+RolUp es una aplicación web diseñada como herramienta de apoyo para jugar rol de mesa de forma presencial. Permite gestionar personajes, inventario, habilidades, conjuros y, próximamente, encuentros de combate con turnos, efectos y reparto de recompensas. La versión 1.0.0 (la actual) se centra en la API, mientras que la 2.0.0 integrará websocket para manejar estos encuentros.
 
-El proyecto está pensado para jugar con amigos en tiempo real en la red local de una casa, con una máquina que haga de servidor y el resto conectándose con el móvil (u otros equipos). No es una aplicación comercial ni un trabajo sumamente serio que quiera compartir para que otras personas lo usen. Es una solución a un problema de gestión de partidas de D&D para mi grupo de amigos, por lo que es muy específica para nosotros.
+El proyecto está pensado para jugar con amigos en tiempo real en la red local de una casa, con una máquina que haga de servidor y el resto conectándose con el móvil (u otros equipos). No es una aplicación comercial ni un trabajo serio que quiera compartir para que otras personas lo usen: es una solución a un problema de gestión de partidas de D&D para mi grupo de amigos, por lo que es muy específica para nosotros.
 
-Si no pretendo distribuir esta aplicación, entonces ¿cuál es la razón por la que he creado un repositorio de GitHub? Pricipalmente porque me permitirá controlar las versiones del proyecto y porque si en un futuro me dedico al desarrollo de software tener mi propio proyecto documentado me sirve de entrenamiento (además, quería enseñarle lo lejos que ha llegado esta idea a mi profesor y quizá pueda ser la base de mi TFG, al menos me ha dado mucho conocimiento para hacer un TFG relacionado con la creación de aplicaciones web).
+Si no pretendo distribuir esta aplicación, entonces ¿cuál es la razón por la que he creado un repositorio de GitHub? Pricipalmente porque:
+-  Me permitirá controlar las versiones del proyecto (lo cual es útil).
+-  Si en un futuro me dedico al desarrollo de software tener mi propio proyecto documentado ya me habrá dado algo de experiencia.
+-  Quería enseñarle lo lejos que ha llegado esta idea a mi profesor y quizá pueda ser la base de mi TFG, al menos me ha dado mucho conocimiento para hacer un TFG relacionado con la creación de aplicaciones web.
 
-Así pues, siendo la documentación una parte muy importante del desarrollo de software, daré más detalles de este proyecto (no una guía de cómo se usa a nivel de usuario sino algo más técnico):
+Así pues, siendo la documentación una parte muy importante del desarrollo de software, daré más detalles de este proyecto (no una guía de cómo se usa a nivel de usuario sino algo más técnico centrándose en las herramientas):
 
 ---
 
