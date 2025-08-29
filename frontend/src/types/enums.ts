@@ -1,0 +1,62 @@
+export enum Category {
+  DAMAGE = "DAMAGE",
+  UTILITY = "UTILITY",
+  TANK = "TANK",
+  SUPPORT = "SUPPORT",
+  AOE = "AOE",
+  HEALING = "HEALING",
+  SHIELDING = "SHIELDING",
+  BURST = "BURST",
+  CC = "CC",
+  MOVEMENT = "MOVEMENT"
+}
+
+export enum School {
+  ABJURATION = "ABJURATION",
+  CONJURATION = "CONJURATION",
+  DIVINATION = "DIVINATION",
+  ENCHANTMENT = "ENCHANTMENT",
+  EVOCATION = "EVOCATION",
+  ILLUSION = "ILLUSION",
+  NECROMANCY = "NECROMANCY",
+  TRANSMUTATION = "TRANSMUTATION"
+}
+
+export enum Source {
+  CLASS = "CLASS",
+  INNATE = "INNATE",
+  ITEM = "ITEM",
+  RACE = "RACE",
+  BACKGROUND = "BACKGROUND",
+  FEAT = "FEAT"
+}
+
+export enum ResetOn {
+  SHORT_REST = "SHORT_REST",
+  LONG_REST = "LONG_REST",
+  SPECIAL = "SPECIAL",
+  NONE = "NONE"
+}
+
+export enum Rarity {
+  COMMON = "COMMON",
+  UNCOMMON = "UNCOMMON",
+  RARE = "RARE",
+  VERY_RARE = "VERY_RARE",
+  LEGENDARY = "LEGENDARY"
+}
+
+export enum ItemCategory {
+  WEAPON = "WEAPON",
+  ARMOR = "ARMOR",
+  CONSUMABLE = "CONSUMABLE",
+  OTHER = "OTHER"
+}
+
+export enum CostUnit {
+  PP = "PP",
+  GP = "GP",
+  EP = "EP",
+  SP = "SP",
+  CP = "CP"
+}

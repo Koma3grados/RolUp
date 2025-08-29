@@ -1,0 +1,5 @@
+package com.rolup.backend.model.enums;
+
+public enum School {
+    ABJURATION, CONJURATION, DIVINATION, ENCHANTMENT, EVOCATION, ILLUSION, NECROMANCY, TRANSMUTATION
+}
